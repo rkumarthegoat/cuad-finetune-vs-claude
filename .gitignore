@@ -1,0 +1,16 @@
+# secrets, never commit these
+.env
+*.key
+
+# large or regenerable files
+data.zip
+CUADv1.json
+test.json
+train_separate_questions.json
+out/chunks_all.jsonl
+lora_out*/
+adapter.zip
+
+# python
+__pycache__/
+*.pyc
